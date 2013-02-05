@@ -1,0 +1,20 @@
+Source: debian-jp-scripts
+Section: misc
+Priority: extra
+Maintainer: Hideki Yamane <henrich@debian.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.debian.or.jp/project/organization.html
+#Vcs-Git: git@github.com:henrich/misc.git
+Vcs-Browser: https://github.com/henrich/misc
+
+Package: debian-jp-scripts
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: misc scripts for managing Debian JP Project
+ We Debian JP Project should do some tasks as routine.
+ This package would help to do it.
+ .
+  - annual election
+  - annual report
+  - etc...
