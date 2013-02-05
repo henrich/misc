@@ -3,9 +3,7 @@
 # 2013/02/04 Hideki Yamane <henrich@debian.or.jp>
 # pre-announce/start announce/result announce for annual election
 
-if [ -f $script_dir/etc/election.conf ]; then
-	. $script_dir/etc/election.conf
-fi
+ . "$install_dir"/etc/election.conf
 
 cat <<EOM
 

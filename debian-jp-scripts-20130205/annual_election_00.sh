@@ -19,19 +19,19 @@ fi
 
 # exec and send mail each 2 days before
 case `date +%F --date 2day` in
-	$pre_announce)
+	"$pre_announce")
 	  annual_election_01_pre_announce.sh
 	  ;;
-	$stand_start)
+	"$stand_start")
 	  02_annual_election_02_request.sh
 	  ;;
-	$vote_start)
+	"$vote_start")
 	  03_annual_election_03_start.sh
 	  ;;
-	$recommendation_start)
+	"$recommendation_start")
 	  04_annual_election_04_no_candidate.sh
 	  ;;
-	$vote_result)
+	"$vote_result")
 	  99_annual_election_05_result.sh
 	  ;;
 	*)
