@@ -1,0 +1,2 @@
+*.sh	usr/local/bin/
+etc/*.conf	usr/local/etc/
